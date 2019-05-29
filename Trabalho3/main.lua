@@ -1,3 +1,39 @@
+function loadNewCoinLocation (i)
+      local platformIndex = love.math.random(1,6)
+      
+      local platformX = objects.platforms[platformIndex].body:getX()
+      local platformY = objects.platforms[platformIndex].body:getY()
+      local platformW = objects.platforms[platformIndex].w
+      local platformH = objects.platforms[platformIndex].h
+      
+      local xCoin = -1
+      
+      while xCoin < 20 or xCoin > 620 do
+        xCoin = love.math.random(platformX - platformW/2, platformX + platformW/2)
+      end
+      
+      local yCoin = platformY - platformH/2 - 15
+      local rCoin = love.math.random(2,10)
+      
+      print(platformX .. " " .. platformY .. " " .. platformW .. " " .. platformH .. " " .. xCoin.. " " .. yCoin)
+      
+      objects.coins[i] = {}
+      objects.coins[i].body = love.physics.newBody(world, xCoin, yCoin, "static")
+      objects.coins[i].shape = love.physics.newCircleShape(rCoin)
+      objects.coins[i].fixture = love.physics.newFixture(objects.coins[i].body, objects.coins[i].shape)
+      objects.coins[i].fixture:setUserData("coin")
+      objects.coins[i].fixture:setGroupIndex(i)
+end
+
+function beginContact(a, b, coll)
+  print(a:getUserData(), b:getUserData())
+  if a:getUserData() == "player" and b:getUserData() == "coin" then
+    objects.player.score = objects.player.score + 100*b:getShape():getRadius()
+    loadNewCoinLocation(b:getGroupIndex(i))
+  end
+  print(objects.player.score)
+end
+
 function love.keypressed(key)   
    if key == "escape" then
       love.event.quit()
@@ -8,8 +44,13 @@ function love.keypressed(key)
 end
 
 function love.load()
+
+  print("test")
+
+  love.math.setRandomSeed(love.timer.getTime())
   love.physics.setMeter(20) 
-  world = love.physics.newWorld(0, 640, false) 
+  world = love.physics.newWorld(0, 640, false)
+  world:setCallbacks(beginContact)
  
   objects = {} -- table to hold all our physical objects
  
@@ -24,6 +65,9 @@ function love.load()
   objects.player.body = love.physics.newBody(world, 650/2, 650/2, "dynamic") --place the body in the center of the world and make it dynamic, so it can move around
   objects.player.shape = love.physics.newRectangleShape(10, 25) --the player's shape has a radius of 20
   objects.player.fixture = love.physics.newFixture(objects.player.body, objects.player.shape, 1) -- Attach fixture to body and give it a density of 1.
+  objects.player.fixture:setUserData("player")
+  objects.player.score = 0
+
   --objects.player.fixture:setRestitution(0.9) --let the player bounce
     
     objects.platforms = {}
@@ -35,10 +79,20 @@ function love.load()
         local xPos  = love.math.random(0, 650)
         local yPos  = love.math.random(60,80) + (100)*(i)
         objects.platforms[i] = {}
+        objects.platforms[i].w = w
+        objects.platforms[i].h = h
         objects.platforms[i].body = love.physics.newBody(world, xPos, yPos)  --remember, the shape (the rectangle we create next) anchors to the body from its center, so we have to move it to (650/2, 650-50/2)
         objects.platforms[i].shape = love.physics.newRectangleShape(w, h) --make a rectangle with a width of 650 and a height of 50
         objects.platforms[i].fixture = love.physics.newFixture(objects.platforms[i].body, objects.platforms[i].shape); --attach shape to body
     end
+
+  --spawning coins
+  objects.coins = {}
+  
+  for i=1, 5 do
+      loadNewCoinLocation(i)
+  end
+
 
   --initial graphics setup
   love.graphics.setBackgroundColor(242/255, 239/255, 233/255) --set the background color to a nice blue
@@ -48,6 +102,8 @@ function love.load()
   --opponents colors 224, 200, 212
   
   love.window.setMode(650, 650) --set the window dimensions to 650 by 650
+  love.window.setTitle("Jumping Rectangles")
+  
 end
  
  
@@ -93,7 +149,19 @@ function love.draw()
     love.graphics.polygon("fill", v.body:getWorldPoints(v.shape:getPoints()))
   end
   
+  for k, v in ipairs(objects.coins) do
+      love.graphics.setColor(250/255, 166/255, 19/255)
+     --set the drawing color to red for the player
+    love.graphics.circle("fill", v.body:getX(),v.body:getY(), v.shape:getRadius() )
+  end
+  
   love.graphics.setColor(153/255, 147/255, 178/255)
   love.graphics.polygon("fill", 20, 20, 20, 150, 120, 150, 120, 20)
+  
+  love.graphics.setColor(166/255, 66/255, 83/255)
+  love.graphics.print(objects.player.score, 30, 30, 1.2, 1.2)
+
+  love.graphics.setColor(229/255, 242/255, 243/255)
+  love.graphics.print("Player 1", 90, 30, 1.2, 1.2)
   
 end
