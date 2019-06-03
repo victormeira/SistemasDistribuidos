@@ -1,3 +1,9 @@
+local mqtt = require("mqtt_library.lua")
+
+function mqttCallback(topic, message)
+    
+end
+
 function loadNewCoinLocation (i)
 
   local platformIndex = love.math.random(1,5)
