@@ -1,6 +1,6 @@
 local mqtt = require("mqtt_library")
 
-totalPerMinutePerTopic = {}
+totalPerMinutePerThread = {}
 totalPerMinute = 0
 
 startTime = 0
@@ -12,32 +12,44 @@ function tableHasKey(table,key)
 end
 
 function mqttCallback(topic, message)
-    if(tableHasKey(totalPerMinutePerTopic, message)) then
-        totalPerMinutePerTopic[message] = totalPerMinutePerTopic[message] + 1
-    else
-        totalPerMinutePerTopic[message] = 1
+  
+  totalPerMinute = totalPerMinute + 1
+  
+  for k,v in ipairs(totalPerMinutePerThread) do
+    if(v.thread == message) then
+      v.totalMessages = v.totalMessages + 1
+      return
     end
+  end
+  
+  local totalObj = {}
+  totalObj.totalMessages = 1
+  totalObj.thread = message
+  
+  table.insert(totalPerMinutePerThread, totalObj)
 end
 
-mqtt_client = mqtt.client.create("test.mosquitto.org", 1883, mqttcb)
+mqtt_client = mqtt.client.create("test.mosquitto.org", 1883, mqttCallback)
 mqtt_client:connect("viewer1420626")
 mqtt_client:subscribe({"test1420626"})
 
-startTime = os.time()
+
+shown = false
 while true do
    mqtt_client:handler() 
-   endTime = os.time()
    
-    if(os.difftime(endTime,startTime) > interval) then
-        startTime = os.time()
-        
+    if(os.time() % interval == 0) then
+      if not shown then 
+        shown = true
         print("Total received in minute: " .. totalPerMinute)
         totalPerMinute = 0
 
-        for k,v in ipairs(totalPerMinutePerTopic) do
-            print("Received " .. v .. " messages from " .. k)
-            totalPerMinutePerTopic[k] = 0
+        for k,v in ipairs(totalPerMinutePerThread) do
+            print("Received " .. v.totalMessages .. " messages from " .. v.thread)
+            v.totalMessages = 0
         end
-        
-    end
+      end
+    else
+      shown = false
+    end    
 end

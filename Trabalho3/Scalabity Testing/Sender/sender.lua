@@ -1,28 +1,32 @@
 local mqtt = require("mqtt_library")
+local socket = require("socket")
 
 totalPerMinute = 0
 interval = 5
 
-function mqttcb(topic, message)
-   print("Received from topic: " .. topic .. " - message:" .. message)
-end
+mqtt_client = mqtt.client.create("test.mosquitto.org", 1883, mqttcb)
+mqtt_client:connect(arg[1].."1420626")
 
-mqtt_client = mqtt.client.create("test.mosquitto.org", 1882, mqttcb)
-mqtt_client:connect("viewer1420626")
-mqtt_client:subscribe({"test1420626"})
 
-startTime = os.time()
+shown = false
 while true do
    mqtt_client:handler()
-   --mqtt_client:publish("viewer1420626", "1")
-   --print("published")
+   mqtt_client:publish("test1420626", arg[1])
+   
+   socket.sleep(arg[2])
    totalPerMinute = totalPerMinute + 1
-   endTime = os.time()
+   
 
-    if(os.difftime(endTime,startTime) > interval) then
+    if(os.time() % interval == 0 ) then
+      
+      if(not shown) then
+        shown = true
         startTime = os.time()
-        print("Total sent in minute: " .. totalPerMinute)
-        mqtt_client:publish("test1420626", "1")
+        print("Total sent in minute" .. totalPerMinute .. "from thread " .. arg[1])
         totalPerMinute = 0
+      end
+    else
+      shown = false
     end
+    
 end
