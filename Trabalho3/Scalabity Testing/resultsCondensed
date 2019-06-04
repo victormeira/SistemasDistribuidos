@@ -1,0 +1,8 @@
+20 threads, 0.2 s interval -> 250/251 acc
+30 threads, 0.2 s interval -> 240/241 acc
+39 threads, 0.5 s interval -> 101/115 acc Mais de 50 threads parece quebrar
+5  threads, 0.05 s interval -> 952/955 acc
+5  threads, 0.01 s interval -> 4456/4720 acc Intervalo menores parece quebrar
+
+Para os testes de escalabilidade foi utilizado o próprio lua com mqtt, utilizando um shell script para gerar um consumidor que serve de agregador para as requisicoes das centenas de produtores.
+As medidas utilizadas foram quantidade de requisicoes por minuto e a proporcao entre reportadas como enviadas pelos produtores e recebidas pelo consumidor.

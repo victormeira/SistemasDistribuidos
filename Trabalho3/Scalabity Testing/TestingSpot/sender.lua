@@ -13,7 +13,7 @@ mqtt_client:connect(arg[1].."1420626")
 shown = false
 while true do
    mqtt_client:handler()
-   mqtt_client:publish("test1420626", arg[1])
+   mqtt_client:publish("test1420626", arg[1] .. "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
 
    socket.sleep(arg[2])
    totalPerMinute = totalPerMinute + 1
