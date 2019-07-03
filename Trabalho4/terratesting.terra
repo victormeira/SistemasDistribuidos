@@ -1,0 +1,77 @@
+#include "/home/terra/TerraNG/terra/TerraNet.defs"
+
+var ushort myNodeId = getNodeId();
+
+pktype ackMsg from radioMsg with
+    var ushort nodeId;
+end
+
+//building my ackMessage with myNodeId
+var ackMsg myAckMsg;
+myAckMsg.nodeId = myNodeId;
+myAckMsg.target = BROADCAST;
+myAckMsg.source = myNodeId;
+
+//building my neighborAck and array of neighborIds
+var ackMsg neighborAckMsg;
+var ushort[8] neighborIdArray;
+
+var ushort count = -1;
+
+emit LED0(OFF);
+emit LED1(OFF);
+emit LED2(OFF);
+
+// keep sending and receiving for 10 sec
+// for send LED0 with turn on, for each receive LED2 will toggle
+par/or do
+
+    // send once and keep receiving
+    par/and do
+        // send ackMessages to neighbor
+        var ushort randWait = random()%1000;
+        await (randWait)ms;
+
+        emit LED0(TOGGLE);
+        emit SEND(myAckMsg);
+
+        await SEND_DONE;
+    with
+        loop do
+
+            // await neighbor message
+            neighborAckMsg = await RECEIVE;
+
+            // Add to array of neighbors
+            count = count + 1;
+            neighborIdArray[count] = neighborAckMsg.nodeId;
+
+            emit LED2(TOGGLE);
+        end
+    end
+
+with
+    await 5s;
+
+end
+
+emit LED0(OFF);
+emit LED1(OFF);
+emit LED2(OFF);
+
+// show neighbor count in LEDs
+if count % 1 == 0 then
+    emit LED2(ON);
+end
+if count - 4 > 1 or (count < 4 and count > 1) then
+    emit LED1(ON);
+end
+if count > 3 then
+    emit LED0(ON);
+end
+
+await 10s;
+
+emit LED0(OFF);
+emit LED1(OFF);
+emit LED2(OFF);

@@ -1,0 +1,1663 @@
+324 1662 3 10 0 0 80 2 80
+00 | 00000 0 track 0
+00 | 00001 0
+00 | 00002 0
+00 | 00003 0
+00 | 00004 0 track 1
+00 | 00005 0
+00 | 00006 0
+00 | 00007 0
+00 | 00008 0 track 2
+00 | 00009 0
+00 | 00010 0
+00 | 00011 0
+00 | 00012 0 track 3
+00 | 00013 0
+00 | 00014 0
+00 | 00015 0
+00 | 00016 0000 wClock 0
+00 | 00017 0001
+00 | 00018 0002
+00 | 00019 0003
+00 | 00020 0004
+00 | 00021 0005
+00 | 00022 0006
+00 | 00023 0007
+00 | 00024 0008 wClock 1
+00 | 00025 0009
+00 | 00026 0010
+00 | 00027 0011
+00 | 00028 0012
+00 | 00029 0013
+00 | 00030 0014
+00 | 00031 0015
+00 | 00032 0016 wClock 2
+00 | 00033 0017
+00 | 00034 0018
+00 | 00035 0019
+00 | 00036 0020
+00 | 00037 0021
+00 | 00038 0022
+00 | 00039 0023
+00 | 00040 0024 wClock 3
+00 | 00041 0025
+00 | 00042 0026
+00 | 00043 0027
+00 | 00044 0028
+00 | 00045 0029
+00 | 00046 0030
+00 | 00047 0031
+00 | 00048 0032 wClock 4
+00 | 00049 0033
+00 | 00050 0034
+00 | 00051 0035
+00 | 00052 0036
+00 | 00053 0037
+00 | 00054 0038
+00 | 00055 0039
+00 | 00056 0040 wClock 5
+00 | 00057 0041
+00 | 00058 0042
+00 | 00059 0043
+00 | 00060 0044
+00 | 00061 0045
+00 | 00062 0046
+00 | 00063 0047
+00 | 00064 0048 wClock 6
+00 | 00065 0049
+00 | 00066 0050
+00 | 00067 0051
+00 | 00068 0052
+00 | 00069 0053
+00 | 00070 0054
+00 | 00071 0055
+00 | 00072 0056 wClock 7
+00 | 00073 0057
+00 | 00074 0058
+00 | 00075 0059
+00 | 00076 0060
+00 | 00077 0061
+00 | 00078 0062
+00 | 00079 0063
+00 | 00080 0064 wClock 8
+00 | 00081 0065
+00 | 00082 0066
+00 | 00083 0067
+00 | 00084 0068
+00 | 00085 0069
+00 | 00086 0070
+00 | 00087 0071
+00 | 00088 0072 wClock 9
+00 | 00089 0073
+00 | 00090 0074
+00 | 00091 0075
+00 | 00092 0076
+00 | 00093 0077
+00 | 00094 0078
+00 | 00095 0079
+00 | 00096 0080 inEvt 041 : SEND_DONE
+00 | 00097 0081           : 05 gates
+00 | 00098 0082
+00 | 00099 0083
+00 | 00100 0084
+00 | 00101 0085
+00 | 00102 0086
+00 | 00103 0087
+00 | 00104 0088
+00 | 00105 0089
+00 | 00106 0090
+00 | 00107 0091
+00 | 00108 0092 inEvt 045 : RECEIVE
+00 | 00109 0093           : 03 gates
+00 | 00110 0094
+00 | 00111 0095
+00 | 00112 0096
+00 | 00113 0097
+00 | 00114 0098
+00 | 00115 0099
+00 | 00116 0100 $ret:1, 
+00 | 00117 0101 myNodeId:2, 
+00 | 00118 0102 
+00 | 00119 0103 myAckMsg:25, 
+00 | 00120 0104 
+00 | 00121 0105 
+00 | 00122 0106 
+00 | 00123 0107 
+00 | 00124 0108 
+00 | 00125 0109 
+00 | 00126 0110 
+00 | 00127 0111 
+00 | 00128 0112 
+00 | 00129 0113 
+00 | 00130 0114 
+00 | 00131 0115 
+00 | 00132 0116 
+00 | 00133 0117 
+00 | 00134 0118 
+00 | 00135 0119 
+00 | 00136 0120 
+00 | 00137 0121 
+00 | 00138 0122 
+00 | 00139 0123 
+00 | 00140 0124 
+00 | 00141 0125 
+00 | 00142 0126 
+00 | 00143 0127 
+00 | 00144 0128 neighborAckMsg:25, 
+00 | 00145 0129 
+00 | 00146 0130 
+00 | 00147 0131 
+00 | 00148 0132 
+00 | 00149 0133 
+00 | 00150 0134 
+00 | 00151 0135 
+00 | 00152 0136 
+00 | 00153 0137 
+00 | 00154 0138 
+00 | 00155 0139 
+00 | 00156 0140 
+00 | 00157 0141 
+00 | 00158 0142 
+00 | 00159 0143 
+00 | 00160 0144 
+00 | 00161 0145 
+00 | 00162 0146 
+00 | 00163 0147 
+00 | 00164 0148 
+00 | 00165 0149 
+00 | 00166 0150 
+00 | 00167 0151 
+00 | 00168 0152 
+00 | 00169 0153 neighborIdArray:16, 
+00 | 00170 0154 
+00 | 00171 0155 
+00 | 00172 0156 
+00 | 00173 0157 
+00 | 00174 0158 
+00 | 00175 0159 
+00 | 00176 0160 
+00 | 00177 0161 
+00 | 00178 0162 
+00 | 00179 0163 
+00 | 00180 0164 
+00 | 00181 0165 
+00 | 00182 0166 
+00 | 00183 0167 
+00 | 00184 0168 
+00 | 00185 0169 count:2, 
+00 | 00186 0170 
+00 | 00187 0171 agentArray:24, 
+00 | 00188 0172 
+00 | 00189 0173 
+00 | 00190 0174 
+00 | 00191 0175 
+00 | 00192 0176 
+00 | 00193 0177 
+00 | 00194 0178 
+00 | 00195 0179 
+00 | 00196 0180 
+00 | 00197 0181 
+00 | 00198 0182 
+00 | 00199 0183 
+00 | 00200 0184 
+00 | 00201 0185 
+00 | 00202 0186 
+00 | 00203 0187 
+00 | 00204 0188 
+00 | 00205 0189 
+00 | 00206 0190 
+00 | 00207 0191 
+00 | 00208 0192 
+00 | 00209 0193 
+00 | 00210 0194 
+00 | 00211 0195 queryArray:24, 
+00 | 00212 0196 
+00 | 00213 0197 
+00 | 00214 0198 
+00 | 00215 0199 
+00 | 00216 0200 
+00 | 00217 0201 
+00 | 00218 0202 
+00 | 00219 0203 
+00 | 00220 0204 
+00 | 00221 0205 
+00 | 00222 0206 
+00 | 00223 0207 
+00 | 00224 0208 
+00 | 00225 0209 
+00 | 00226 0210 
+00 | 00227 0211 
+00 | 00228 0212 
+00 | 00229 0213 
+00 | 00230 0214 
+00 | 00231 0215 
+00 | 00232 0216 
+00 | 00233 0217 
+00 | 00234 0218 
+00 | 00235 0219 agentCount:2, 
+00 | 00236 0220 
+00 | 00237 0221 queryCount:2, 
+00 | 00238 0222 
+00 | 00239 0223 receivedMsg:25, 
+00 | 00240 0224 
+00 | 00241 0225 
+00 | 00242 0226 
+00 | 00243 0227 
+00 | 00244 0228 
+00 | 00245 0229 
+00 | 00246 0230 
+00 | 00247 0231 
+00 | 00248 0232 
+00 | 00249 0233 
+00 | 00250 0234 
+00 | 00251 0235 
+00 | 00252 0236 
+00 | 00253 0237 
+00 | 00254 0238 
+00 | 00255 0239 
+00 | 00256 0240 
+00 | 00257 0241 
+00 | 00258 0242 
+00 | 00259 0243 
+00 | 00260 0244 
+00 | 00261 0245 
+00 | 00262 0246 
+00 | 00263 0247 
+00 | 00264 0248 mySentMsg:25, 
+00 | 00265 0249 
+00 | 00266 0250 
+00 | 00267 0251 
+00 | 00268 0252 
+00 | 00269 0253 
+00 | 00270 0254 
+00 | 00271 0255 
+00 | 00272 0256 
+00 | 00273 0257 
+00 | 00274 0258 
+00 | 00275 0259 
+00 | 00276 0260 
+00 | 00277 0261 
+00 | 00278 0262 
+00 | 00279 0263 
+00 | 00280 0264 
+00 | 00281 0265 
+00 | 00282 0266 
+00 | 00283 0267 
+00 | 00284 0268 
+00 | 00285 0269 
+00 | 00286 0270 
+00 | 00287 0271 
+00 | 00288 0272 
+00 | 00289 0273 ParAnd_flag[2], 
+00 | 00290 0274 
+00 | 00291 0275 randWait:2, 
+00 | 00292 0276 
+00 | 00293 0277 bestNumberOfHops:2, 
+00 | 00294 0278 
+00 | 00295 0279 nextNodeId:2, 
+00 | 00296 0280 
+00 | 00297 0281 found:1, 
+00 | 00298 0282 randWait:2, 
+00 | 00299 0283 
+00 | 00300 0284 i:4, 
+00 | 00301 0285 
+00 | 00302 0286 
+00 | 00303 0287 
+00 | 00304 0288 __i_0x8a9d860:4, 
+00 | 00305 0289 
+00 | 00306 0290 
+00 | 00307 0291 
+00 | 00308 0292 nextNodeId:2, 
+00 | 00309 0293 
+00 | 00310 0294 bestNumberOfHops:2, 
+00 | 00311 0295 
+00 | 00312 0296 beginReply:1, 
+00 | 00313 0297 found:1, 
+00 | 00314 0298 randWait:2, 
+00 | 00315 0299 
+00 | 00316 0300 i:4, j:4, 
+00 | 00317 0301 
+00 | 00318 0302 
+00 | 00319 0303 
+00 | 00320 0304 __i_0x8a9f1e0:4, __j_0x8b162b8:4, 
+00 | 00321 0305 
+00 | 00322 0306 
+00 | 00323 0307 
+d1 | 00324 d1 set_c ushort 80 10501         | config gate SEND_DONE with 5 await(s) - 0x2905 = 10501
+50 | 00325 50 
+29 | 00326 29 
+05 | 00327 05 
+d1 | 00328 d1 set_c ushort 92 11523         | config gate RECEIVE with 3 await(s) - 0x2d03 = 11523
+5c | 00329 5c 
+2d | 00330 2d 
+03 | 00331 03 
+24 | 00332 24 func 0                        | func getNodeId
+00 | 00333 00 
+a1 | 00334 a1 pop ushort 101                | pop myNodeId
+65 | 00335 65 
+2a | 00336 2a set_v ushort 108 ushort 101   | myAckMsg.nodeId = myNodeId
+11 | 00337 11 
+6c | 00338 6c 
+65 | 00339 65 
+d1 | 00340 d1 set_c ushort 106 0xffff       | myAckMsg.target = 0xffff
+6a | 00341 6a 
+ff | 00342 ff 
+ff | 00343 ff 
+2a | 00344 2a set_v ushort 104 ushort 101   | myAckMsg.source = myNodeId
+11 | 00345 11 
+68 | 00346 68 
+65 | 00347 65 
+40 | 00348 40 push_c 1                      | push 1
+01 | 00349 01 
+04 | 00350 04 neg                           | neg
+a1 | 00351 a1 pop ushort 169                | pop count
+a9 | 00352 a9 
+58 | 00353 58 outevt_c 6 0                  | emit LED0 len=1 const=0
+06 | 00354 06 
+00 | 00355 00 
+58 | 00356 58 outevt_c 7 0                  | emit LED1 len=1 const=0
+07 | 00357 07 
+00 | 00358 00 
+58 | 00359 58 outevt_c 8 0                  | emit LED2 len=1 const=0
+08 | 00360 08 
+00 | 00361 00 
+89 | 00362 89 tkins_max 0 15                | insert track ParOr_sub_1_15
+01 | 00363 .00 addr:369
+71 | 00364 .0f 
+89 | 00365 89 tkins_max 0 16                | insert track ParOr_sub_2_16
+01 | 00366 .00 addr:465
+d1 | 00367 .10 
+01 | 00368 01 end                           | end
+4a | 00369 4a memclr 273 2                  | clear gates from addr 273 to addr 274
+01 | 00370 01 
+11 | 00371 11 
+02 | 00372 02 
+89 | 00373 89 tkins_max 0 18                | insert track ParAnd_sub_1_18
+01 | 00374 .00 addr:380
+7c | 00375 .12 
+89 | 00376 89 tkins_max 0 19                | insert track ParAnd_sub_2_19
+01 | 00377 .00 addr:415
+9f | 00378 .13 
+01 | 00379 01 end                           | end
+41 | 00380 41 push_c 2000                   | push 2000
+07 | 00381 07 
+d0 | 00382 d0 
+24 | 00383 24 func 1                        | func random
+01 | 00384 01 
+07 | 00385 07 mod                           | mod
+a9 | 00386 a9 pop ushort 275                | pop randWait
+01 | 00387 01 
+13 | 00388 13 
+28 | 00389 28 clken_v 0 0 ushort 275 24     | clock enable Awake_randWait_24 (randWait:ushort)ms
+0b | 00390 0b 
+00 | 00391 00 
+01 | 00392 01 
+13 | 00393 13 
+01 | 00394 .00 addr:397
+8d | 00395 .18 
+01 | 00396 01 end                           | end
+58 | 00397 58 outevt_c 6 2                  | emit LED0 len=1 const=2
+06 | 00398 06 
+02 | 00399 02 
+b1 | 00400 b1 outevt_v 40 103               | emit SEND len=25 var=myAckMsg
+28 | 00401 28 
+67 | 00402 67 
+d1 | 00403 d1 set_c ushort 82 30            | await SEND_DONE[0]
+52 | 00404 52 
+01 | 00405 .00 addr:408
+98 | 00406 .1e 
+01 | 00407 01 end                           | end
+c8 | 00408 c8 set_c ubyte 273 1             | open gate 1
+01 | 00409 01 
+11 | 00410 11 
+01 | 00411 01 
+39 | 00412 39 exec 20                       | goto  20
+01 | 00413 .00 addr:453
+c5 | 00414 .14 
+d1 | 00415 d1 set_c ushort 94 34            | await RECEIVE[0]
+5e | 00416 5e 
+01 | 00417 .00 addr:420
+a4 | 00418 .22 
+01 | 00419 01 end                           | end
+5c | 00420 5c getextdt_v 128 25             | getExtData neighborAckMsg 25
+80 | 00421 80 
+19 | 00422 19 
+40 | 00423 40 push_c 1                      | push 1
+01 | 00424 01 
+91 | 00425 91 push_v ushort 169             | push count:ushort
+a9 | 00426 a9 
+06 | 00427 06 add                           | add
+a1 | 00428 a1 pop ushort 169                | pop count
+a9 | 00429 a9 
+2c | 00430 2c setarr_vv ushort 153 ushort 169 8 ushort 133  | neighborIdArray[count] = neighborAckMsg.nodeId
+11 | 00431 11 
+01 | 00432 01 
+99 | 00433 99 
+a9 | 00434 a9 
+08 | 00435 08 
+85 | 00436 85 
+58 | 00437 58 outevt_c 8 2                  | emit LED2 len=1 const=2
+08 | 00438 08 
+02 | 00439 02 
+39 | 00440 39 exec 31                       | goto  31
+01 | 00441 .00 addr:415
+9f | 00442 .1f 
+48 | 00443 48 memclr 94 2                   | clear EXT gates for RECEIVE
+5e | 00444 5e 
+02 | 00445 02 
+c8 | 00446 c8 set_c ubyte 274 1             | open gate 2
+01 | 00447 01 
+12 | 00448 12 
+01 | 00449 01 
+39 | 00450 39 exec 20                       | goto  20
+01 | 00451 .00 addr:453
+c5 | 00452 .14 
+3b | 00453 3b chkret 273                    | ParAnd_out_21 -- if (gate 0 == 0) PC=PC+1
+01 | 00454 01 
+11 | 00455 11 
+01 | 00456 01 end                           | end
+3b | 00457 3b chkret 274                    | ParAnd_out_21 -- if (gate 1 == 0) PC=PC+1
+01 | 00458 01 
+12 | 00459 12 
+01 | 00460 01 end                           | end
+89 | 00461 89 tkins_max 0 17                | insert track ParOr_out_17
+01 | 00462 .00 addr:477
+dd | 00463 .11 
+01 | 00464 01 end                           | end
+29 | 00465 29 clken_c 1 7000 39             | clock enable Awake_7000_39 7000msec
+03 | 00466 03 
+01 | 00467 01 
+1b | 00468 1b 
+58 | 00469 58 
+01 | 00470 .00 addr:473
+d9 | 00471 .27 
+01 | 00472 01 end                           | end
+89 | 00473 89 tkins_max 0 17                | insert track ParOr_out_17
+01 | 00474 .00 addr:477
+dd | 00475 .11 
+01 | 00476 01 end                           | end
+48 | 00477 48 memclr 0 16                   | clear WClocks gates from 0 to 2
+00 | 00478 00 
+10 | 00479 10 
+48 | 00480 48 memclr 82 2                   | clear EXT gates for SEND_DONE
+52 | 00481 52 
+02 | 00482 02 
+48 | 00483 48 memclr 94 2                   | clear EXT gates for RECEIVE
+5e | 00484 5e 
+02 | 00485 02 
+29 | 00486 29 clken_c 2 5000 40             | clock enable Awake_5000_40 5000msec
+03 | 00487 03 
+02 | 00488 02 
+13 | 00489 13 
+88 | 00490 88 
+01 | 00491 .00 addr:494
+ee | 00492 .28 
+01 | 00493 01 end                           | end
+58 | 00494 58 outevt_c 6 0                  | emit LED0 len=1 const=0
+06 | 00495 06 
+00 | 00496 00 
+58 | 00497 58 outevt_c 7 0                  | emit LED1 len=1 const=0
+07 | 00498 07 
+00 | 00499 00 
+58 | 00500 58 outevt_c 8 0                  | emit LED2 len=1 const=0
+08 | 00501 08 
+00 | 00502 00 
+c1 | 00503 c1 set_c ushort 219 0            | agentCount = 0
+db | 00504 db 
+00 | 00505 00 
+c1 | 00506 c1 set_c ushort 221 0            | queryCount = 0
+dd | 00507 dd 
+00 | 00508 00 
+40 | 00509 40 push_c 23                     | push 23
+17 | 00510 17 
+91 | 00511 91 push_v ushort 101             | push myNodeId:ushort
+65 | 00512 65 
+0f | 00513 0f eq                            | eq
+4f | 00514 4f ifelse 60 61                  | ifelse True_60 EndIf_61
+02 | 00515 .00 addr:519
+07 | 00516 .3c 
+02 | 00517 .00 addr:592
+50 | 00518 .3d 
+29 | 00519 29 clken_c 3 5000 50             | clock enable Awake_5000_50 5000msec
+03 | 00520 03 
+03 | 00521 03 
+13 | 00522 13 
+88 | 00523 88 
+02 | 00524 .00 addr:527
+0f | 00525 .32 
+01 | 00526 01 end                           | end
+c9 | 00527 c9 set_c ushort 259 0            | mySentMsg.messageType = 0
+01 | 00528 01 
+03 | 00529 03 
+00 | 00530 00 
+2a | 00531 2a set_v ushort 257 ushort 101   | mySentMsg.nodeId = myNodeId
+91 | 00532 91 
+01 | 00533 01 
+01 | 00534 01 
+65 | 00535 65 
+c1 | 00536 c1 set_c ushort 255 1            | mySentMsg.eventId = 1
+ff | 00537 ff 
+01 | 00538 01 
+c1 | 00539 c1 set_c ushort 253 0            | mySentMsg.numberOfHops = 0
+fd | 00540 fd 
+00 | 00541 00 
+40 | 00542 40 push_c 153                    | push_c &neighborIdArray:ushort*
+99 | 00543 99 
+40 | 00544 40 push_c 8                      | push idx max 8
+08 | 00545 08 
+91 | 00546 91 push_v ushort 169             | push count:ushort
+a9 | 00547 a9 
+24 | 00548 24 func 1                        | func random
+01 | 00549 01 
+07 | 00550 07 mod                           | mod
+07 | 00551 07 mod                           | mod: limmit idx
+40 | 00552 40 push_c 2                      | push var len ushort
+02 | 00553 02 
+08 | 00554 08 mult                          | mult: varlen * idx
+06 | 00555 06 add                           | add: array base addr + len position
+71 | 00556 71 deref ushort                  | deref ushort
+a1 | 00557 a1 pop ushort 251                | pop mySentMsg.target
+fb | 00558 fb 
+c9 | 00559 c9 set_c ushort 261 0            | mySentMsg.numberOfPassages = 0
+01 | 00560 01 
+05 | 00561 05 
+00 | 00562 00 
+c1 | 00563 c1 set_c ushort 171 23           | agentArray.nodeId[0] = 23
+ab | 00564 ab 
+17 | 00565 17 
+c1 | 00566 c1 set_c ushort 183 1            | agentArray.eventId[0] = 1
+b7 | 00567 b7 
+01 | 00568 01 
+c1 | 00569 c1 set_c ushort 177 0            | agentArray.numberOfHops[0] = 0
+b1 | 00570 b1 
+00 | 00571 00 
+c1 | 00572 c1 set_c ushort 189 0            | agentArray.messageType[0] = 0
+bd | 00573 bd 
+00 | 00574 00 
+c1 | 00575 c1 set_c ushort 219 1            | agentCount = 1
+db | 00576 db 
+01 | 00577 01 
+b1 | 00578 b1 outevt_v 40 248               | emit SEND len=25 var=mySentMsg
+28 | 00579 28 
+f8 | 00580 f8 
+d1 | 00581 d1 set_c ushort 84 57            | await SEND_DONE[1]
+54 | 00582 54 
+02 | 00583 .00 addr:586
+4a | 00584 .39 
+01 | 00585 01 end                           | end
+58 | 00586 58 outevt_c 8 0                  | emit LED2 len=1 const=0
+08 | 00587 08 
+00 | 00588 00 
+39 | 00589 39 exec 61                       | goto  61
+02 | 00590 .00 addr:592
+50 | 00591 .3d 
+40 | 00592 40 push_c 41                     | push 41
+29 | 00593 29 
+91 | 00594 91 push_v ushort 101             | push myNodeId:ushort
+65 | 00595 65 
+0f | 00596 0f eq                            | eq
+4f | 00597 4f ifelse 73 74                  | ifelse True_73 EndIf_74
+02 | 00598 .00 addr:602
+5a | 00599 .49 
+02 | 00600 .00 addr:675
+a3 | 00601 .4a 
+29 | 00602 29 clken_c 4 2000 63             | clock enable Awake_2000_63 2000msec
+03 | 00603 03 
+04 | 00604 04 
+07 | 00605 07 
+d0 | 00606 d0 
+02 | 00607 .00 addr:610
+62 | 00608 .3f 
+01 | 00609 01 end                           | end
+c9 | 00610 c9 set_c ushort 259 1            | mySentMsg.messageType = 1
+01 | 00611 01 
+03 | 00612 03 
+01 | 00613 01 
+2a | 00614 2a set_v ushort 257 ushort 101   | mySentMsg.nodeId = myNodeId
+91 | 00615 91 
+01 | 00616 01 
+01 | 00617 01 
+65 | 00618 65 
+c1 | 00619 c1 set_c ushort 255 1            | mySentMsg.eventId = 1
+ff | 00620 ff 
+01 | 00621 01 
+c1 | 00622 c1 set_c ushort 253 0            | mySentMsg.numberOfHops = 0
+fd | 00623 fd 
+00 | 00624 00 
+40 | 00625 40 push_c 153                    | push_c &neighborIdArray:ushort*
+99 | 00626 99 
+40 | 00627 40 push_c 8                      | push idx max 8
+08 | 00628 08 
+91 | 00629 91 push_v ushort 169             | push count:ushort
+a9 | 00630 a9 
+24 | 00631 24 func 1                        | func random
+01 | 00632 01 
+07 | 00633 07 mod                           | mod
+07 | 00634 07 mod                           | mod: limmit idx
+40 | 00635 40 push_c 2                      | push var len ushort
+02 | 00636 02 
+08 | 00637 08 mult                          | mult: varlen * idx
+06 | 00638 06 add                           | add: array base addr + len position
+71 | 00639 71 deref ushort                  | deref ushort
+a1 | 00640 a1 pop ushort 251                | pop mySentMsg.target
+fb | 00641 fb 
+c9 | 00642 c9 set_c ushort 261 0            | mySentMsg.numberOfPassages = 0
+01 | 00643 01 
+05 | 00644 05 
+00 | 00645 00 
+c1 | 00646 c1 set_c ushort 195 41           | queryArray.nodeId[0] = 41
+c3 | 00647 c3 
+29 | 00648 29 
+c1 | 00649 c1 set_c ushort 207 1            | queryArray.eventId[0] = 1
+cf | 00650 cf 
+01 | 00651 01 
+c1 | 00652 c1 set_c ushort 201 0            | queryArray.numberOfHops[0] = 0
+c9 | 00653 c9 
+00 | 00654 00 
+c1 | 00655 c1 set_c ushort 213 1            | queryArray.messageType[0] = 1
+d5 | 00656 d5 
+01 | 00657 01 
+c1 | 00658 c1 set_c ushort 221 1            | queryCount = 1
+dd | 00659 dd 
+01 | 00660 01 
+b1 | 00661 b1 outevt_v 40 248               | emit SEND len=25 var=mySentMsg
+28 | 00662 28 
+f8 | 00663 f8 
+d1 | 00664 d1 set_c ushort 86 70            | await SEND_DONE[2]
+56 | 00665 56 
+02 | 00666 .00 addr:669
+9d | 00667 .46 
+01 | 00668 01 end                           | end
+58 | 00669 58 outevt_c 8 1                  | emit LED2 len=1 const=1
+08 | 00670 08 
+01 | 00671 01 
+39 | 00672 39 exec 74                       | goto  74
+02 | 00673 .00 addr:675
+a3 | 00674 .4a 
+89 | 00675 89 tkins_max 0 75                | insert track ParEver_sub_1_75
+02 | 00676 .00 addr:682
+aa | 00677 .4b 
+89 | 00678 89 tkins_max 0 76                | insert track ParEver_sub_2_76
+04 | 00679 .00 addr:1094
+46 | 00680 .4c 
+01 | 00681 01 end                           | end
+d1 | 00682 d1 set_c ushort 96 83            | await RECEIVE[1]
+60 | 00683 60 
+02 | 00684 .00 addr:687
+af | 00685 .53 
+01 | 00686 01 end                           | end
+5c | 00687 5c getextdt_v 223 25             | getExtData receivedMsg 25
+df | 00688 df 
+19 | 00689 19 
+40 | 00690 40 push_c 20                     | push 20
+14 | 00691 14 
+91 | 00692 91 push_v ushort 236                    | push receivedMsg.numberOfPassages [Optm:: push_c addr + deref]
+ec | 00693 ec 
+14 | 00694 14 lt                            | lt
+40 | 00695 40 push_c 0                      | push 0
+00 | 00696 00 
+91 | 00697 91 push_v ushort 234                    | push receivedMsg.messageType [Optm:: push_c addr + deref]
+ea | 00698 ea 
+0f | 00699 0f eq                            | eq
+16 | 00700 16 land                          | land
+4f | 00701 4f ifelse 149 150                | ifelse True_149 EndIf_150
+02 | 00702 .00 addr:706
+c2 | 00703 .95 
+02 | 00704 .00 addr:682
+aa | 00705 .50 
+58 | 00706 58 outevt_c 6 1                  | emit LED0 len=1 const=1
+06 | 00707 06 
+01 | 00708 01 
+40 | 00709 40 push_c 1                      | push 1
+01 | 00710 01 
+91 | 00711 91 push_v ushort 228                    | push receivedMsg.numberOfHops [Optm:: push_c addr + deref]
+e4 | 00712 e4 
+06 | 00713 06 add                           | add
+a9 | 00714 a9 pop ushort 277                | pop bestNumberOfHops
+01 | 00715 01 
+15 | 00716 15 
+40 | 00717 40 push_c 1                      | push 1
+01 | 00718 01 
+04 | 00719 04 neg                           | neg
+a9 | 00720 a9 pop ushort 279                | pop nextNodeId
+01 | 00721 01 
+17 | 00722 17 
+cc | 00723 cc set_c byte 281 0              | found = 0
+01 | 00724 01 
+19 | 00725 19 
+00 | 00726 00 
+40 | 00727 40 push_c 0                      | push 0
+00 | 00728 00 
+91 | 00729 91 push_v ushort 219             | push agentCount:ushort
+db | 00730 db 
+13 | 00731 13 gt                            | gt
+4f | 00732 4f ifelse 120 121                | ifelse True_120 EndIf_121
+02 | 00733 .00 addr:737
+e1 | 00734 .78 
+03 | 00735 .00 addr:882
+72 | 00736 .79 
+ca | 00737 ca set_c ulong 284 0             | i = 0
+01 | 00738 01 
+1c | 00739 1c 
+00 | 00740 00 
+2a | 00741 2a set_v ulong 288 ushort 219    | __i_0x8a9d860 = agentCount
+a1 | 00742 a1 
+01 | 00743 01 
+20 | 00744 20 
+db | 00745 db 
+9a | 00746 9a push_v ulong 288              | push __i_0x8a9d860:ulong
+01 | 00747 01 
+20 | 00748 20 
+9a | 00749 9a push_v ulong 284              | push i:ulong
+01 | 00750 01 
+1c | 00751 1c 
+11 | 00752 11 gte                           | gte
+4f | 00753 4f ifelse 117 118                | ifelse True_117 False_118
+02 | 00754 .00 addr:758
+f6 | 00755 .75 
+02 | 00756 .00 addr:766
+fe | 00757 .76 
+3d | 00758 3d tkins_z 1 15 98               | insert track Loop_out_98 tree 15
+8f | 00759 8f 
+03 | 00760 .00 addr:882
+72 | 00761 .79 
+01 | 00762 01 end                           | end
+39 | 00763 39 exec 119                      | goto  119
+02 | 00764 .00 addr:746
+ea | 00765 .60 
+91 | 00766 91 push_v ushort 230                    | push receivedMsg.eventId [Optm:: push_c addr + deref]
+e6 | 00767 e6 
+40 | 00768 40 push_c 183                    | push agentArray.eventId
+b7 | 00769 b7 
+40 | 00770 40 push_c 3                      | push idx max 3
+03 | 00771 03 
+9a | 00772 9a push_v ulong 284              | push i:ulong
+01 | 00773 01 
+1c | 00774 1c 
+07 | 00775 07 mod                           | mod: limmit idx
+40 | 00776 40 push_c 2                      | push var len ushort
+02 | 00777 02 
+08 | 00778 08 mult                          | mult: varlen * idx
+06 | 00779 06 add                           | add: array base addr + len position
+71 | 00780 71 deref ushort                  | deref ushort
+0f | 00781 0f eq                            | eq
+4f | 00782 4f ifelse 115 116                | ifelse True_115 EndIf_116
+03 | 00783 .00 addr:787
+13 | 00784 .73 
+03 | 00785 .00 addr:875
+6b | 00786 .74 
+91 | 00787 91 push_v ushort 228                    | push receivedMsg.numberOfHops [Optm:: push_c addr + deref]
+e4 | 00788 e4 
+40 | 00789 40 push_c 1                      | push 1
+01 | 00790 01 
+40 | 00791 40 push_c 177                    | push agentArray.numberOfHops
+b1 | 00792 b1 
+40 | 00793 40 push_c 3                      | push idx max 3
+03 | 00794 03 
+9a | 00795 9a push_v ulong 284              | push i:ulong
+01 | 00796 01 
+1c | 00797 1c 
+07 | 00798 07 mod                           | mod: limmit idx
+40 | 00799 40 push_c 2                      | push var len ushort
+02 | 00800 02 
+08 | 00801 08 mult                          | mult: varlen * idx
+06 | 00802 06 add                           | add: array base addr + len position
+71 | 00803 71 deref ushort                  | deref ushort
+05 | 00804 05 sub                           | sub
+13 | 00805 13 gt                            | gt
+4f | 00806 4f ifelse 113 114                | ifelse True_113 EndIf_114
+03 | 00807 .00 addr:811
+2b | 00808 .71 
+03 | 00809 .00 addr:863
+5f | 00810 .72 
+40 | 00811 40 push_c 1                      | push 1
+01 | 00812 01 
+91 | 00813 91 push_v ushort 228                    | push receivedMsg.numberOfHops [Optm:: push_c addr + deref]
+e4 | 00814 e4 
+06 | 00815 06 add                           | add
+40 | 00816 40 push_c 177                    | push agentArray.numberOfHops
+b1 | 00817 b1 
+40 | 00818 40 push_c 3                      | push idx max 3
+03 | 00819 03 
+9a | 00820 9a push_v ulong 284              | push i:ulong
+01 | 00821 01 
+1c | 00822 1c 
+07 | 00823 07 mod                           | mod: limmit idx
+40 | 00824 40 push_c 2                      | push var len ushort
+02 | 00825 02 
+08 | 00826 08 mult                          | mult: varlen * idx
+06 | 00827 06 add                           | add: array base addr + len position
+69 | 00828 69 set_e ushort                  | set (ushort)*(pop1) = pop2
+91 | 00829 91 push_v ushort 232                    | push receivedMsg.nodeId [Optm:: push_c addr + deref]
+e8 | 00830 e8 
+40 | 00831 40 push_c 171                    | push agentArray.nodeId
+ab | 00832 ab 
+40 | 00833 40 push_c 3                      | push idx max 3
+03 | 00834 03 
+9a | 00835 9a push_v ulong 284              | push i:ulong
+01 | 00836 01 
+1c | 00837 1c 
+07 | 00838 07 mod                           | mod: limmit idx
+40 | 00839 40 push_c 2                      | push var len ushort
+02 | 00840 02 
+08 | 00841 08 mult                          | mult: varlen * idx
+06 | 00842 06 add                           | add: array base addr + len position
+69 | 00843 69 set_e ushort                  | set (ushort)*(pop1) = pop2
+40 | 00844 40 push_c 177                    | push agentArray.numberOfHops
+b1 | 00845 b1 
+40 | 00846 40 push_c 3                      | push idx max 3
+03 | 00847 03 
+9a | 00848 9a push_v ulong 284              | push i:ulong
+01 | 00849 01 
+1c | 00850 1c 
+07 | 00851 07 mod                           | mod: limmit idx
+40 | 00852 40 push_c 2                      | push var len ushort
+02 | 00853 02 
+08 | 00854 08 mult                          | mult: varlen * idx
+06 | 00855 06 add                           | add: array base addr + len position
+71 | 00856 71 deref ushort                  | deref ushort
+a9 | 00857 a9 pop ushort 277                | pop bestNumberOfHops
+01 | 00858 01 
+15 | 00859 15 
+39 | 00860 39 exec 114                      | goto  114
+03 | 00861 .00 addr:863
+5f | 00862 .72 
+cc | 00863 cc set_c byte 281 1              | found = 1
+01 | 00864 01 
+19 | 00865 19 
+01 | 00866 01 
+3d | 00867 3d tkins_z 1 15 98               | insert track Loop_out_98 tree 15
+8f | 00868 8f 
+03 | 00869 .00 addr:882
+72 | 00870 .79 
+01 | 00871 01 end                           | end
+39 | 00872 39 exec 116                      | goto  116
+03 | 00873 .00 addr:875
+6b | 00874 .74 
+41 | 00875 41 push_c 284                    | push &i
+01 | 00876 01 
+1c | 00877 1c 
+62 | 00878 62 inc ulong                     | inc ulong
+39 | 00879 39 exec 119                      | goto  119
+02 | 00880 .00 addr:746
+ea | 00881 .60 
+40 | 00882 40 push_c 0                      | push 0
+00 | 00883 00 
+9c | 00884 9c push_v byte 281               | push found:byte
+01 | 00885 01 
+19 | 00886 19 
+0f | 00887 0f eq                            | eq
+4f | 00888 4f ifelse 127 128                | ifelse True_127 EndIf_128
+03 | 00889 .00 addr:893
+7d | 00890 .7f 
+03 | 00891 .00 addr:945
+b1 | 00892 .80 
+91 | 00893 91 push_v ushort 232                    | push receivedMsg.nodeId [Optm:: push_c addr + deref]
+e8 | 00894 e8 
+40 | 00895 40 push_c 171                    | push agentArray.nodeId
+ab | 00896 ab 
+40 | 00897 40 push_c 3                      | push idx max 3
+03 | 00898 03 
+91 | 00899 91 push_v ushort 219             | push agentCount:ushort
+db | 00900 db 
+07 | 00901 07 mod                           | mod: limmit idx
+40 | 00902 40 push_c 2                      | push var len ushort
+02 | 00903 02 
+08 | 00904 08 mult                          | mult: varlen * idx
+06 | 00905 06 add                           | add: array base addr + len position
+69 | 00906 69 set_e ushort                  | set (ushort)*(pop1) = pop2
+91 | 00907 91 push_v ushort 230                    | push receivedMsg.eventId [Optm:: push_c addr + deref]
+e6 | 00908 e6 
+40 | 00909 40 push_c 183                    | push agentArray.eventId
+b7 | 00910 b7 
+40 | 00911 40 push_c 3                      | push idx max 3
+03 | 00912 03 
+91 | 00913 91 push_v ushort 219             | push agentCount:ushort
+db | 00914 db 
+07 | 00915 07 mod                           | mod: limmit idx
+40 | 00916 40 push_c 2                      | push var len ushort
+02 | 00917 02 
+08 | 00918 08 mult                          | mult: varlen * idx
+06 | 00919 06 add                           | add: array base addr + len position
+69 | 00920 69 set_e ushort                  | set (ushort)*(pop1) = pop2
+91 | 00921 91 push_v ushort 228                    | push receivedMsg.numberOfHops [Optm:: push_c addr + deref]
+e4 | 00922 e4 
+40 | 00923 40 push_c 177                    | push agentArray.numberOfHops
+b1 | 00924 b1 
+40 | 00925 40 push_c 3                      | push idx max 3
+03 | 00926 03 
+91 | 00927 91 push_v ushort 219             | push agentCount:ushort
+db | 00928 db 
+07 | 00929 07 mod                           | mod: limmit idx
+40 | 00930 40 push_c 2                      | push var len ushort
+02 | 00931 02 
+08 | 00932 08 mult                          | mult: varlen * idx
+06 | 00933 06 add                           | add: array base addr + len position
+69 | 00934 69 set_e ushort                  | set (ushort)*(pop1) = pop2
+40 | 00935 40 push_c 1                      | push 1
+01 | 00936 01 
+91 | 00937 91 push_v ushort 219             | push agentCount:ushort
+db | 00938 db 
+06 | 00939 06 add                           | add
+a1 | 00940 a1 pop ushort 219                | pop agentCount
+db | 00941 db 
+39 | 00942 39 exec 128                      | goto  128
+03 | 00943 .00 addr:945
+b1 | 00944 .80 
+cc | 00945 cc set_c byte 281 0              | found = 0
+01 | 00946 01 
+19 | 00947 19 
+00 | 00948 00 
+40 | 00949 40 push_c 0                      | push 0
+00 | 00950 00 
+9c | 00951 9c push_v byte 281               | push found:byte
+01 | 00952 01 
+19 | 00953 19 
+0f | 00954 0f eq                            | eq
+4f | 00955 4f ifelse 140 141                | ifelse True_140 EndIf_141
+03 | 00956 .00 addr:960
+c0 | 00957 .8c 
+04 | 00958 .00 addr:1055
+1f | 00959 .8d 
+91 | 00960 91 push_v ushort 232                    | push receivedMsg.nodeId [Optm:: push_c addr + deref]
+e8 | 00961 e8 
+40 | 00962 40 push_c 195                    | push queryArray.nodeId
+c3 | 00963 c3 
+40 | 00964 40 push_c 3                      | push idx max 3
+03 | 00965 03 
+91 | 00966 91 push_v ushort 221             | push queryCount:ushort
+dd | 00967 dd 
+07 | 00968 07 mod                           | mod: limmit idx
+40 | 00969 40 push_c 2                      | push var len ushort
+02 | 00970 02 
+08 | 00971 08 mult                          | mult: varlen * idx
+06 | 00972 06 add                           | add: array base addr + len position
+69 | 00973 69 set_e ushort                  | set (ushort)*(pop1) = pop2
+91 | 00974 91 push_v ushort 230                    | push receivedMsg.eventId [Optm:: push_c addr + deref]
+e6 | 00975 e6 
+40 | 00976 40 push_c 207                    | push queryArray.eventId
+cf | 00977 cf 
+40 | 00978 40 push_c 3                      | push idx max 3
+03 | 00979 03 
+91 | 00980 91 push_v ushort 221             | push queryCount:ushort
+dd | 00981 dd 
+07 | 00982 07 mod                           | mod: limmit idx
+40 | 00983 40 push_c 2                      | push var len ushort
+02 | 00984 02 
+08 | 00985 08 mult                          | mult: varlen * idx
+06 | 00986 06 add                           | add: array base addr + len position
+69 | 00987 69 set_e ushort                  | set (ushort)*(pop1) = pop2
+91 | 00988 91 push_v ushort 228                    | push receivedMsg.numberOfHops [Optm:: push_c addr + deref]
+e4 | 00989 e4 
+40 | 00990 40 push_c 201                    | push queryArray.numberOfHops
+c9 | 00991 c9 
+40 | 00992 40 push_c 3                      | push idx max 3
+03 | 00993 03 
+91 | 00994 91 push_v ushort 221             | push queryCount:ushort
+dd | 00995 dd 
+07 | 00996 07 mod                           | mod: limmit idx
+40 | 00997 40 push_c 2                      | push var len ushort
+02 | 00998 02 
+08 | 00999 08 mult                          | mult: varlen * idx
+06 | 01000 06 add                           | add: array base addr + len position
+69 | 01001 69 set_e ushort                  | set (ushort)*(pop1) = pop2
+40 | 01002 40 push_c 1                      | push 1
+01 | 01003 01 
+91 | 01004 91 push_v ushort 221             | push queryCount:ushort
+dd | 01005 dd 
+06 | 01006 06 add                           | add
+a1 | 01007 a1 pop ushort 221                | pop queryCount
+dd | 01008 dd 
+c9 | 01009 c9 set_c ushort 259 0            | mySentMsg.messageType = 0
+01 | 01010 01 
+03 | 01011 03 
+00 | 01012 00 
+2a | 01013 2a set_v ushort 257 ushort 101   | mySentMsg.nodeId = myNodeId
+91 | 01014 91 
+01 | 01015 01 
+01 | 01016 01 
+65 | 01017 65 
+2a | 01018 2a set_v ushort 255 ushort 230   | mySentMsg.eventId = receivedMsg.eventId
+11 | 01019 11 
+ff | 01020 ff 
+e6 | 01021 e6 
+2a | 01022 2a set_v ushort 253 ushort 277   | mySentMsg.numberOfHops = bestNumberOfHops
+19 | 01023 19 
+fd | 01024 fd 
+01 | 01025 01 
+15 | 01026 15 
+40 | 01027 40 push_c 153                    | push_c &neighborIdArray:ushort*
+99 | 01028 99 
+40 | 01029 40 push_c 8                      | push idx max 8
+08 | 01030 08 
+91 | 01031 91 push_v ushort 169             | push count:ushort
+a9 | 01032 a9 
+24 | 01033 24 func 1                        | func random
+01 | 01034 01 
+07 | 01035 07 mod                           | mod
+07 | 01036 07 mod                           | mod: limmit idx
+40 | 01037 40 push_c 2                      | push var len ushort
+02 | 01038 02 
+08 | 01039 08 mult                          | mult: varlen * idx
+06 | 01040 06 add                           | add: array base addr + len position
+71 | 01041 71 deref ushort                  | deref ushort
+a1 | 01042 a1 pop ushort 251                | pop mySentMsg.target
+fb | 01043 fb 
+40 | 01044 40 push_c 1                      | push 1
+01 | 01045 01 
+91 | 01046 91 push_v ushort 236                    | push receivedMsg.numberOfPassages [Optm:: push_c addr + deref]
+ec | 01047 ec 
+06 | 01048 06 add                           | add
+a9 | 01049 a9 pop ushort 261                | pop mySentMsg.numberOfPassages
+01 | 01050 01 
+05 | 01051 05 
+39 | 01052 39 exec 141                      | goto  141
+04 | 01053 .00 addr:1055
+1f | 01054 .8d 
+41 | 01055 41 push_c 2000                   | push 2000
+07 | 01056 07 
+d0 | 01057 d0 
+41 | 01058 41 push_c 2000                   | push 2000
+07 | 01059 07 
+d0 | 01060 d0 
+24 | 01061 24 func 1                        | func random
+01 | 01062 01 
+07 | 01063 07 mod                           | mod
+06 | 01064 06 add                           | add
+a9 | 01065 a9 pop ushort 282                | pop randWait
+01 | 01066 01 
+1a | 01067 1a 
+28 | 01068 28 clken_v 5 0 ushort 282 144    | clock enable Awake_randWait_144 (randWait:ushort)ms
+0b | 01069 0b 
+05 | 01070 05 
+01 | 01071 01 
+1a | 01072 1a 
+04 | 01073 .00 addr:1076
+34 | 01074 .90 
+01 | 01075 01 end                           | end
+b1 | 01076 b1 outevt_v 40 248               | emit SEND len=25 var=mySentMsg
+28 | 01077 28 
+f8 | 01078 f8 
+d1 | 01079 d1 set_c ushort 88 148           | await SEND_DONE[3]
+58 | 01080 58 
+02 | 01081 .00 addr:682
+aa | 01082 .50 
+01 | 01083 01 end                           | end
+48 | 01084 48 memclr 40 8                   | clear WClocks gates from 5 to 6
+28 | 01085 28 
+08 | 01086 08 
+48 | 01087 48 memclr 82 2                   | clear EXT gates for SEND_DONE
+52 | 01088 52 
+02 | 01089 02 
+48 | 01090 48 memclr 94 2                   | clear EXT gates for RECEIVE
+5e | 01091 5e 
+02 | 01092 02 
+01 | 01093 01 end                           | end
+d1 | 01094 d1 set_c ushort 98 154           | await RECEIVE[2]
+62 | 01095 62 
+04 | 01096 .00 addr:1099
+4b | 01097 .9a 
+01 | 01098 01 end                           | end
+5c | 01099 5c getextdt_v 223 25             | getExtData receivedMsg 25
+df | 01100 df 
+19 | 01101 19 
+40 | 01102 40 push_c 20                     | push 20
+14 | 01103 14 
+91 | 01104 91 push_v ushort 236                    | push receivedMsg.numberOfPassages [Optm:: push_c addr + deref]
+ec | 01105 ec 
+14 | 01106 14 lt                            | lt
+40 | 01107 40 push_c 1                      | push 1
+01 | 01108 01 
+91 | 01109 91 push_v ushort 234                    | push receivedMsg.messageType [Optm:: push_c addr + deref]
+ea | 01110 ea 
+0f | 01111 0f eq                            | eq
+16 | 01112 16 land                          | land
+4f | 01113 4f ifelse 272 273                | ifelse True_272 EndIf_273
+04 | 01114 .01 addr:1118
+5e | 01115 .10 
+04 | 01116 .00 addr:1094
+46 | 01117 .97 
+58 | 01118 58 outevt_c 7 1                  | emit LED1 len=1 const=1
+07 | 01119 07 
+01 | 01120 01 
+40 | 01121 40 push_c 1                      | push 1
+01 | 01122 01 
+04 | 01123 04 neg                           | neg
+a9 | 01124 a9 pop ushort 292                | pop nextNodeId
+01 | 01125 01 
+24 | 01126 24 
+40 | 01127 40 push_c 1                      | push 1
+01 | 01128 01 
+91 | 01129 91 push_v ushort 228                    | push receivedMsg.numberOfHops [Optm:: push_c addr + deref]
+e4 | 01130 e4 
+06 | 01131 06 add                           | add
+a9 | 01132 a9 pop ushort 294                | pop bestNumberOfHops
+01 | 01133 01 
+26 | 01134 26 
+cc | 01135 cc set_c byte 296 0              | beginReply = 0
+01 | 01136 01 
+28 | 01137 28 
+00 | 01138 00 
+40 | 01139 40 push_c 0                      | push 0
+00 | 01140 00 
+91 | 01141 91 push_v ushort 219             | push agentCount:ushort
+db | 01142 db 
+13 | 01143 13 gt                            | gt
+4f | 01144 4f ifelse 200 201                | ifelse True_200 EndIf_201
+04 | 01145 .00 addr:1149
+7d | 01146 .c8 
+05 | 01147 .00 addr:1292
+0c | 01148 .c9 
+ca | 01149 ca set_c ulong 300 0             | i = 0
+01 | 01150 01 
+2c | 01151 2c 
+00 | 01152 00 
+2a | 01153 2a set_v ulong 304 ushort 219    | __i_0x8a9f1e0 = agentCount
+a1 | 01154 a1 
+01 | 01155 01 
+30 | 01156 30 
+db | 01157 db 
+9a | 01158 9a push_v ulong 304              | push __i_0x8a9f1e0:ulong
+01 | 01159 01 
+30 | 01160 30 
+9a | 01161 9a push_v ulong 300              | push i:ulong
+01 | 01162 01 
+2c | 01163 2c 
+11 | 01164 11 gte                           | gte
+4f | 01165 4f ifelse 197 198                | ifelse True_197 False_198
+04 | 01166 .00 addr:1170
+92 | 01167 .c5 
+04 | 01168 .00 addr:1178
+9a | 01169 .c6 
+3d | 01170 3d tkins_z 1 15 169              | insert track Loop_out_169 tree 15
+8f | 01171 8f 
+05 | 01172 .00 addr:1286
+06 | 01173 .a9 
+01 | 01174 01 end                           | end
+39 | 01175 39 exec 199                      | goto  199
+04 | 01176 .00 addr:1158
+86 | 01177 .a7 
+91 | 01178 91 push_v ushort 230                    | push receivedMsg.eventId [Optm:: push_c addr + deref]
+e6 | 01179 e6 
+40 | 01180 40 push_c 183                    | push agentArray.eventId
+b7 | 01181 b7 
+40 | 01182 40 push_c 3                      | push idx max 3
+03 | 01183 03 
+9a | 01184 9a push_v ulong 300              | push i:ulong
+01 | 01185 01 
+2c | 01186 2c 
+07 | 01187 07 mod                           | mod: limmit idx
+40 | 01188 40 push_c 2                      | push var len ushort
+02 | 01189 02 
+08 | 01190 08 mult                          | mult: varlen * idx
+06 | 01191 06 add                           | add: array base addr + len position
+71 | 01192 71 deref ushort                  | deref ushort
+0f | 01193 0f eq                            | eq
+4f | 01194 4f ifelse 195 196                | ifelse True_195 EndIf_196
+04 | 01195 .00 addr:1199
+af | 01196 .c3 
+04 | 01197 .00 addr:1279
+ff | 01198 .c4 
+58 | 01199 58 outevt_c 8 1                  | emit LED2 len=1 const=1
+08 | 01200 08 
+01 | 01201 01 
+29 | 01202 29 clken_c 6 10000 179           | clock enable Awake_10000_179 10000msec
+03 | 01203 03 
+06 | 01204 06 
+27 | 01205 27 
+10 | 01206 10 
+04 | 01207 .00 addr:1210
+ba | 01208 .b3 
+01 | 01209 01 end                           | end
+58 | 01210 58 outevt_c 8 0                  | emit LED2 len=1 const=0
+08 | 01211 08 
+00 | 01212 00 
+91 | 01213 91 push_v ushort 101             | push myNodeId:ushort
+65 | 01214 65 
+40 | 01215 40 push_c 171                    | push agentArray.nodeId
+ab | 01216 ab 
+40 | 01217 40 push_c 3                      | push idx max 3
+03 | 01218 03 
+9a | 01219 9a push_v ulong 300              | push i:ulong
+01 | 01220 01 
+2c | 01221 2c 
+07 | 01222 07 mod                           | mod: limmit idx
+40 | 01223 40 push_c 2                      | push var len ushort
+02 | 01224 02 
+08 | 01225 08 mult                          | mult: varlen * idx
+06 | 01226 06 add                           | add: array base addr + len position
+71 | 01227 71 deref ushort                  | deref ushort
+0f | 01228 0f eq                            | eq
+4f | 01229 4f ifelse 191 192                | ifelse True_191 EndIf_192
+04 | 01230 .00 addr:1234
+d2 | 01231 .bf 
+04 | 01232 .00 addr:1255
+e7 | 01233 .c0 
+58 | 01234 58 outevt_c 6 1                  | emit LED0 len=1 const=1
+06 | 01235 06 
+01 | 01236 01 
+58 | 01237 58 outevt_c 7 1                  | emit LED1 len=1 const=1
+07 | 01238 07 
+01 | 01239 01 
+58 | 01240 58 outevt_c 8 1                  | emit LED2 len=1 const=1
+08 | 01241 08 
+01 | 01242 01 
+cc | 01243 cc set_c byte 296 1              | beginReply = 1
+01 | 01244 01 
+28 | 01245 28 
+01 | 01246 01 
+3d | 01247 3d tkins_z 1 15 169              | insert track Loop_out_169 tree 15
+8f | 01248 8f 
+05 | 01249 .00 addr:1286
+06 | 01250 .a9 
+01 | 01251 01 end                           | end
+39 | 01252 39 exec 192                      | goto  192
+04 | 01253 .00 addr:1255
+e7 | 01254 .c0 
+40 | 01255 40 push_c 171                    | push agentArray.nodeId
+ab | 01256 ab 
+40 | 01257 40 push_c 3                      | push idx max 3
+03 | 01258 03 
+9a | 01259 9a push_v ulong 300              | push i:ulong
+01 | 01260 01 
+2c | 01261 2c 
+07 | 01262 07 mod                           | mod: limmit idx
+40 | 01263 40 push_c 2                      | push var len ushort
+02 | 01264 02 
+08 | 01265 08 mult                          | mult: varlen * idx
+06 | 01266 06 add                           | add: array base addr + len position
+71 | 01267 71 deref ushort                  | deref ushort
+a9 | 01268 a9 pop ushort 292                | pop nextNodeId
+01 | 01269 01 
+24 | 01270 24 
+3d | 01271 3d tkins_z 1 15 169              | insert track Loop_out_169 tree 15
+8f | 01272 8f 
+05 | 01273 .00 addr:1286
+06 | 01274 .a9 
+01 | 01275 01 end                           | end
+39 | 01276 39 exec 196                      | goto  196
+04 | 01277 .00 addr:1279
+ff | 01278 .c4 
+41 | 01279 41 push_c 300                    | push &i
+01 | 01280 01 
+2c | 01281 2c 
+62 | 01282 62 inc ulong                     | inc ulong
+39 | 01283 39 exec 199                      | goto  199
+04 | 01284 .00 addr:1158
+86 | 01285 .a7 
+48 | 01286 48 memclr 48 8                   | clear WClocks gates from 6 to 7
+30 | 01287 30 
+08 | 01288 08 
+39 | 01289 39 exec 201                      | goto  201
+05 | 01290 .00 addr:1292
+0c | 01291 .c9 
+cc | 01292 cc set_c byte 297 0              | found = 0
+01 | 01293 01 
+29 | 01294 29 
+00 | 01295 00 
+40 | 01296 40 push_c 0                      | push 0
+00 | 01297 00 
+91 | 01298 91 push_v ushort 221             | push queryCount:ushort
+dd | 01299 dd 
+13 | 01300 13 gt                            | gt
+4f | 01301 4f ifelse 236 237                | ifelse True_236 EndIf_237
+05 | 01302 .00 addr:1306
+1a | 01303 .ec 
+05 | 01304 .00 addr:1471
+bf | 01305 .ed 
+ca | 01306 ca set_c ulong 300 0             | j = 0
+01 | 01307 01 
+2c | 01308 2c 
+00 | 01309 00 
+2a | 01310 2a set_v ulong 304 ushort 221    | __j_0x8b162b8 = queryCount
+a1 | 01311 a1 
+01 | 01312 01 
+30 | 01313 30 
+dd | 01314 dd 
+9a | 01315 9a push_v ulong 304              | push __j_0x8b162b8:ulong
+01 | 01316 01 
+30 | 01317 30 
+9a | 01318 9a push_v ulong 300              | push j:ulong
+01 | 01319 01 
+2c | 01320 2c 
+11 | 01321 11 gte                           | gte
+4f | 01322 4f ifelse 233 234                | ifelse True_233 False_234
+05 | 01323 .00 addr:1327
+2f | 01324 .e9 
+05 | 01325 .00 addr:1335
+37 | 01326 .ea 
+3d | 01327 3d tkins_z 1 15 209              | insert track Loop_out_209 tree 15
+8f | 01328 8f 
+05 | 01329 .00 addr:1465
+b9 | 01330 .d1 
+01 | 01331 01 end                           | end
+39 | 01332 39 exec 235                      | goto  235
+05 | 01333 .00 addr:1315
+23 | 01334 .cf 
+91 | 01335 91 push_v ushort 230                    | push receivedMsg.eventId [Optm:: push_c addr + deref]
+e6 | 01336 e6 
+40 | 01337 40 push_c 207                    | push queryArray.eventId
+cf | 01338 cf 
+40 | 01339 40 push_c 3                      | push idx max 3
+03 | 01340 03 
+9a | 01341 9a push_v ulong 300              | push j:ulong
+01 | 01342 01 
+2c | 01343 2c 
+07 | 01344 07 mod                           | mod: limmit idx
+40 | 01345 40 push_c 2                      | push var len ushort
+02 | 01346 02 
+08 | 01347 08 mult                          | mult: varlen * idx
+06 | 01348 06 add                           | add: array base addr + len position
+71 | 01349 71 deref ushort                  | deref ushort
+0f | 01350 0f eq                            | eq
+4f | 01351 4f ifelse 231 232                | ifelse True_231 EndIf_232
+05 | 01352 .00 addr:1356
+4c | 01353 .e7 
+05 | 01354 .00 addr:1458
+b2 | 01355 .e8 
+58 | 01356 58 outevt_c 8 1                  | emit LED2 len=1 const=1
+08 | 01357 08 
+01 | 01358 01 
+29 | 01359 29 clken_c 7 2000 219            | clock enable Awake_2000_219 2000msec
+03 | 01360 03 
+07 | 01361 07 
+07 | 01362 07 
+d0 | 01363 d0 
+05 | 01364 .00 addr:1367
+57 | 01365 .db 
+01 | 01366 01 end                           | end
+58 | 01367 58 outevt_c 8 0                  | emit LED2 len=1 const=0
+08 | 01368 08 
+00 | 01369 00 
+91 | 01370 91 push_v ushort 228                    | push receivedMsg.numberOfHops [Optm:: push_c addr + deref]
+e4 | 01371 e4 
+40 | 01372 40 push_c 1                      | push 1
+01 | 01373 01 
+40 | 01374 40 push_c 201                    | push queryArray.numberOfHops
+c9 | 01375 c9 
+40 | 01376 40 push_c 3                      | push idx max 3
+03 | 01377 03 
+9a | 01378 9a push_v ulong 300              | push j:ulong
+01 | 01379 01 
+2c | 01380 2c 
+07 | 01381 07 mod                           | mod: limmit idx
+40 | 01382 40 push_c 2                      | push var len ushort
+02 | 01383 02 
+08 | 01384 08 mult                          | mult: varlen * idx
+06 | 01385 06 add                           | add: array base addr + len position
+71 | 01386 71 deref ushort                  | deref ushort
+05 | 01387 05 sub                           | sub
+13 | 01388 13 gt                            | gt
+4f | 01389 4f ifelse 229 230                | ifelse True_229 EndIf_230
+05 | 01390 .00 addr:1394
+72 | 01391 .e5 
+05 | 01392 .00 addr:1446
+a6 | 01393 .e6 
+40 | 01394 40 push_c 1                      | push 1
+01 | 01395 01 
+91 | 01396 91 push_v ushort 228                    | push receivedMsg.numberOfHops [Optm:: push_c addr + deref]
+e4 | 01397 e4 
+06 | 01398 06 add                           | add
+40 | 01399 40 push_c 201                    | push queryArray.numberOfHops
+c9 | 01400 c9 
+40 | 01401 40 push_c 3                      | push idx max 3
+03 | 01402 03 
+9a | 01403 9a push_v ulong 300              | push j:ulong
+01 | 01404 01 
+2c | 01405 2c 
+07 | 01406 07 mod                           | mod: limmit idx
+40 | 01407 40 push_c 2                      | push var len ushort
+02 | 01408 02 
+08 | 01409 08 mult                          | mult: varlen * idx
+06 | 01410 06 add                           | add: array base addr + len position
+69 | 01411 69 set_e ushort                  | set (ushort)*(pop1) = pop2
+91 | 01412 91 push_v ushort 232                    | push receivedMsg.nodeId [Optm:: push_c addr + deref]
+e8 | 01413 e8 
+40 | 01414 40 push_c 195                    | push queryArray.nodeId
+c3 | 01415 c3 
+40 | 01416 40 push_c 3                      | push idx max 3
+03 | 01417 03 
+9a | 01418 9a push_v ulong 300              | push j:ulong
+01 | 01419 01 
+2c | 01420 2c 
+07 | 01421 07 mod                           | mod: limmit idx
+40 | 01422 40 push_c 2                      | push var len ushort
+02 | 01423 02 
+08 | 01424 08 mult                          | mult: varlen * idx
+06 | 01425 06 add                           | add: array base addr + len position
+69 | 01426 69 set_e ushort                  | set (ushort)*(pop1) = pop2
+40 | 01427 40 push_c 201                    | push queryArray.numberOfHops
+c9 | 01428 c9 
+40 | 01429 40 push_c 3                      | push idx max 3
+03 | 01430 03 
+9a | 01431 9a push_v ulong 300              | push j:ulong
+01 | 01432 01 
+2c | 01433 2c 
+07 | 01434 07 mod                           | mod: limmit idx
+40 | 01435 40 push_c 2                      | push var len ushort
+02 | 01436 02 
+08 | 01437 08 mult                          | mult: varlen * idx
+06 | 01438 06 add                           | add: array base addr + len position
+71 | 01439 71 deref ushort                  | deref ushort
+a9 | 01440 a9 pop ushort 294                | pop bestNumberOfHops
+01 | 01441 01 
+26 | 01442 26 
+39 | 01443 39 exec 230                      | goto  230
+05 | 01444 .00 addr:1446
+a6 | 01445 .e6 
+cc | 01446 cc set_c byte 297 1              | found = 1
+01 | 01447 01 
+29 | 01448 29 
+01 | 01449 01 
+3d | 01450 3d tkins_z 1 15 209              | insert track Loop_out_209 tree 15
+8f | 01451 8f 
+05 | 01452 .00 addr:1465
+b9 | 01453 .d1 
+01 | 01454 01 end                           | end
+39 | 01455 39 exec 232                      | goto  232
+05 | 01456 .00 addr:1458
+b2 | 01457 .e8 
+41 | 01458 41 push_c 300                    | push &j
+01 | 01459 01 
+2c | 01460 2c 
+62 | 01461 62 inc ulong                     | inc ulong
+39 | 01462 39 exec 235                      | goto  235
+05 | 01463 .00 addr:1315
+23 | 01464 .cf 
+48 | 01465 48 memclr 56 8                   | clear WClocks gates from 7 to 8
+38 | 01466 38 
+08 | 01467 08 
+39 | 01468 39 exec 237                      | goto  237
+05 | 01469 .00 addr:1471
+bf | 01470 .ed 
+40 | 01471 40 push_c 0                      | push 0
+00 | 01472 00 
+9c | 01473 9c push_v byte 297               | push found:byte
+01 | 01474 01 
+29 | 01475 29 
+0f | 01476 0f eq                            | eq
+4f | 01477 4f ifelse 252 253                | ifelse True_252 EndIf_253
+05 | 01478 .00 addr:1482
+ca | 01479 .fc 
+06 | 01480 .00 addr:1554
+12 | 01481 .fd 
+91 | 01482 91 push_v ushort 232                    | push receivedMsg.nodeId [Optm:: push_c addr + deref]
+e8 | 01483 e8 
+40 | 01484 40 push_c 195                    | push queryArray.nodeId
+c3 | 01485 c3 
+40 | 01486 40 push_c 3                      | push idx max 3
+03 | 01487 03 
+91 | 01488 91 push_v ushort 221             | push queryCount:ushort
+dd | 01489 dd 
+07 | 01490 07 mod                           | mod: limmit idx
+40 | 01491 40 push_c 2                      | push var len ushort
+02 | 01492 02 
+08 | 01493 08 mult                          | mult: varlen * idx
+06 | 01494 06 add                           | add: array base addr + len position
+69 | 01495 69 set_e ushort                  | set (ushort)*(pop1) = pop2
+91 | 01496 91 push_v ushort 230                    | push receivedMsg.eventId [Optm:: push_c addr + deref]
+e6 | 01497 e6 
+40 | 01498 40 push_c 207                    | push queryArray.eventId
+cf | 01499 cf 
+40 | 01500 40 push_c 3                      | push idx max 3
+03 | 01501 03 
+91 | 01502 91 push_v ushort 221             | push queryCount:ushort
+dd | 01503 dd 
+07 | 01504 07 mod                           | mod: limmit idx
+40 | 01505 40 push_c 2                      | push var len ushort
+02 | 01506 02 
+08 | 01507 08 mult                          | mult: varlen * idx
+06 | 01508 06 add                           | add: array base addr + len position
+69 | 01509 69 set_e ushort                  | set (ushort)*(pop1) = pop2
+91 | 01510 91 push_v ushort 228                    | push receivedMsg.numberOfHops [Optm:: push_c addr + deref]
+e4 | 01511 e4 
+40 | 01512 40 push_c 201                    | push queryArray.numberOfHops
+c9 | 01513 c9 
+40 | 01514 40 push_c 3                      | push idx max 3
+03 | 01515 03 
+91 | 01516 91 push_v ushort 221             | push queryCount:ushort
+dd | 01517 dd 
+07 | 01518 07 mod                           | mod: limmit idx
+40 | 01519 40 push_c 2                      | push var len ushort
+02 | 01520 02 
+08 | 01521 08 mult                          | mult: varlen * idx
+06 | 01522 06 add                           | add: array base addr + len position
+69 | 01523 69 set_e ushort                  | set (ushort)*(pop1) = pop2
+40 | 01524 40 push_c 1                      | push 1
+01 | 01525 01 
+91 | 01526 91 push_v ushort 221             | push queryCount:ushort
+dd | 01527 dd 
+06 | 01528 06 add                           | add
+a1 | 01529 a1 pop ushort 221                | pop queryCount
+dd | 01530 dd 
+58 | 01531 58 outevt_c 8 1                  | emit LED2 len=1 const=1
+08 | 01532 08 
+01 | 01533 01 
+58 | 01534 58 outevt_c 7 1                  | emit LED1 len=1 const=1
+07 | 01535 07 
+01 | 01536 01 
+29 | 01537 29 clken_c 8 2000 247            | clock enable Awake_2000_247 2000msec
+03 | 01538 03 
+08 | 01539 08 
+07 | 01540 07 
+d0 | 01541 d0 
+06 | 01542 .00 addr:1545
+09 | 01543 .f7 
+01 | 01544 01 end                           | end
+58 | 01545 58 outevt_c 8 0                  | emit LED2 len=1 const=0
+08 | 01546 08 
+00 | 01547 00 
+58 | 01548 58 outevt_c 7 0                  | emit LED1 len=1 const=0
+07 | 01549 07 
+00 | 01550 00 
+39 | 01551 39 exec 253                      | goto  253
+06 | 01552 .00 addr:1554
+12 | 01553 .fd 
+c9 | 01554 c9 set_c ushort 259 1            | mySentMsg.messageType = 1
+01 | 01555 01 
+03 | 01556 03 
+01 | 01557 01 
+2a | 01558 2a set_v ushort 257 ushort 101   | mySentMsg.nodeId = myNodeId
+91 | 01559 91 
+01 | 01560 01 
+01 | 01561 01 
+65 | 01562 65 
+2a | 01563 2a set_v ushort 255 ushort 230   | mySentMsg.eventId = receivedMsg.eventId
+11 | 01564 11 
+ff | 01565 ff 
+e6 | 01566 e6 
+2a | 01567 2a set_v ushort 253 ushort 294   | mySentMsg.numberOfHops = bestNumberOfHops
+19 | 01568 19 
+fd | 01569 fd 
+01 | 01570 01 
+26 | 01571 26 
+40 | 01572 40 push_c 0                      | push 0
+00 | 01573 00 
+99 | 01574 99 push_v ushort 292             | push nextNodeId:ushort
+01 | 01575 01 
+24 | 01576 24 
+14 | 01577 14 lt                            | lt
+4f | 01578 4f ifelse 261 262                | ifelse True_261 False_262
+06 | 01579 .01 addr:1583
+2f | 01580 .05 
+06 | 01581 .01 addr:1603
+43 | 01582 .06 
+40 | 01583 40 push_c 153                    | push_c &neighborIdArray:ushort*
+99 | 01584 99 
+40 | 01585 40 push_c 8                      | push idx max 8
+08 | 01586 08 
+91 | 01587 91 push_v ushort 169             | push count:ushort
+a9 | 01588 a9 
+24 | 01589 24 func 1                        | func random
+01 | 01590 01 
+07 | 01591 07 mod                           | mod
+07 | 01592 07 mod                           | mod: limmit idx
+40 | 01593 40 push_c 2                      | push var len ushort
+02 | 01594 02 
+08 | 01595 08 mult                          | mult: varlen * idx
+06 | 01596 06 add                           | add: array base addr + len position
+71 | 01597 71 deref ushort                  | deref ushort
+a1 | 01598 a1 pop ushort 251                | pop mySentMsg.target
+fb | 01599 fb 
+39 | 01600 39 exec 263                      | goto  263
+06 | 01601 .01 addr:1611
+4b | 01602 .07 
+2a | 01603 2a set_v ushort 251 ushort 292   | mySentMsg.target = nextNodeId
+19 | 01604 19 
+fb | 01605 fb 
+01 | 01606 01 
+24 | 01607 24 
+39 | 01608 39 exec 263                      | goto  263
+06 | 01609 .01 addr:1611
+4b | 01610 .07 
+40 | 01611 40 push_c 1                      | push 1
+01 | 01612 01 
+91 | 01613 91 push_v ushort 236                    | push receivedMsg.numberOfPassages [Optm:: push_c addr + deref]
+ec | 01614 ec 
+06 | 01615 06 add                           | add
+a9 | 01616 a9 pop ushort 261                | pop mySentMsg.numberOfPassages
+01 | 01617 01 
+05 | 01618 05 
+41 | 01619 41 push_c 2000                   | push 2000
+07 | 01620 07 
+d0 | 01621 d0 
+41 | 01622 41 push_c 2000                   | push 2000
+07 | 01623 07 
+d0 | 01624 d0 
+24 | 01625 24 func 1                        | func random
+01 | 01626 01 
+07 | 01627 07 mod                           | mod
+06 | 01628 06 add                           | add
+a9 | 01629 a9 pop ushort 298                | pop randWait
+01 | 01630 01 
+2a | 01631 2a 
+28 | 01632 28 clken_v 9 0 ushort 298 267    | clock enable Awake_randWait_267 (randWait:ushort)ms
+0b | 01633 0b 
+09 | 01634 09 
+01 | 01635 01 
+2a | 01636 2a 
+06 | 01637 .01 addr:1640
+68 | 01638 .0b 
+01 | 01639 01 end                           | end
+b1 | 01640 b1 outevt_v 40 248               | emit SEND len=25 var=mySentMsg
+28 | 01641 28 
+f8 | 01642 f8 
+d1 | 01643 d1 set_c ushort 90 271           | await SEND_DONE[4]
+5a | 01644 5a 
+04 | 01645 .00 addr:1094
+46 | 01646 .97 
+01 | 01647 01 end                           | end
+48 | 01648 48 memclr 48 32                  | clear WClocks gates from 6 to 10
+30 | 01649 30 
+20 | 01650 20 
+48 | 01651 48 memclr 82 2                   | clear EXT gates for SEND_DONE
+52 | 01652 52 
+02 | 01653 02 
+48 | 01654 48 memclr 94 2                   | clear EXT gates for RECEIVE
+5e | 01655 5e 
+02 | 01656 02 
+01 | 01657 01 end                           | end
+48 | 01658 48 memclr 0 80                   | clear WClocks gates from 0 to 10
+00 | 01659 00 
+50 | 01660 50 
+01 | 01661 01 end                           | end
